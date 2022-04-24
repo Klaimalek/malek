@@ -1,0 +1,51 @@
+.container{
+    box-shadow:black;
+    box-shadow: 10px 30px 30px rgba(0,0,0,0.9);
+    overflow: hidden;
+    width: 300px;
+    transition: 0.5s;
+    
+}
+.MovieCard :hover{
+    animation: normal;
+    transform: scale(1.1);
+    
+}
+.poster__img:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 30px 30px rgba(0,0,0,0.9);
+}
+.poster__img{
+    height: 200px;
+
+}
+.poster_info{
+margin: 1rem;
+margin-top: 0.5rem;
+
+}
+h2{
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: small;
+}
+.poster__title{
+    margin-top: 0.5rem;
+}
+p{
+    color: white;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.coup_coeur{
+    font-size: medium;
+    color: aliceblue;
+padding-left: 200px;
+    
+}
